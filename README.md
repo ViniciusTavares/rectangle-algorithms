@@ -1,0 +1,2 @@
+# rectangles-algorithms
+Rectangles algorithms
