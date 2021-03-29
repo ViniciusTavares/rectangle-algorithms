@@ -1,0 +1,22 @@
+{
+  "name": "rectangle-algorithms",
+  "version": "1.0.0",
+  "description": "Rectangle algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusTavares/rectangle-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusTavares/rectangle-algorithms/issues"
+  },
+  "homepage": "https://github.com/ViniciusTavares/rectangle-algorithms#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
