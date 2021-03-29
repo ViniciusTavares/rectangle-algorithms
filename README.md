@@ -4,7 +4,7 @@ Practice repository for rectangle algorithms
 
 ## Requirements
 
-NodeJS
+- NodeJS
 
 ## Instructions
 
