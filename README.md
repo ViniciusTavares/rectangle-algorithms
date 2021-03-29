@@ -2,6 +2,10 @@
 
 Practice repository for rectangle algorithms
 
+## Requirements
+
+NodeJS
+
 ## Instructions
 
 Install packages and dependencies 
