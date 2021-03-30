@@ -3,7 +3,7 @@ const { expect } = require("@jest/globals");
 const { isAdjacent } = require('../src/adjacency');
 const Rectangle = require("../src/Rectangle");
 
-describe('adjacency', () => { 
+describe('isAdjacent', () => { 
   test('should return true when rectangle 1 and 2 are adjancent', () => {
     
     const rec1 = new Rectangle(0,2,0,3);

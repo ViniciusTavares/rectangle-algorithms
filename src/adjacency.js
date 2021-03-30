@@ -1,5 +1,16 @@
+/*
+* Adjacency is defined as the sharing of at least one side.
+*       |   ___                (x2, y2)   
+*       |  |   |__            
+*       |  |   |  |            
+*       |  |   |__|           
+*       |  |___|              
+*       |______________________
+*  (x1, y1)
+*/
+
 /**
- * This functions detects if two rectangles are adjancet
+ * detects if two rectangles are adjacent
  * @param {Rectangle} rec1 
  * @param {Rectangle} rec2
  * @returns {boolean}

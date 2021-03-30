@@ -1,15 +1,15 @@
 /*
-* x1 and y1 is the coordinate of bottom-left corner
-* y1 and y2 is the coordinate of the top-right corner
-*                         y2
-*       _____________________ 
-*       |                   |  
-*       |                   |
-*       |                   |  x2 
-*       |                   |
-*    x1 |                   |
-*       _____________________
-*         y1
+* a rectangle is defined by two tuples, 
+* which (x1, y1 ) is the coordinate of bottom-left corner
+* and (x1, y2) is the coordinate of the top-right corner
+*          _____________________ (x2, y2) 
+*          |                   |  
+*          |                   |
+*          |                   |  
+*          |                   |
+*          |                   |
+*          |___________________|
+*  (x1, y1)
 */
 
 class Rectangle {
