@@ -14,7 +14,17 @@ Install packages and dependencies
 npm install
 ```
 
-All algorithmns are coveraged by tests.
+Run console application
+
+```
+npm start
+```
+
+This project uses [Inquirer](https://www.npmjs.com/package/inquirer) to generate the command line interface
+
+## Tests
+
+Run unit tests
 
 ```
 npm test
