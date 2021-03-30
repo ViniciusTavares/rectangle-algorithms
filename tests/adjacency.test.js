@@ -1,6 +1,4 @@
-const { expect } = require("@jest/globals");
-
-const { isAdjacent } = require('../src/adjacency');
+const { isAdjacent } = require('../src/utils');
 const Rectangle = require("../src/Rectangle");
 
 describe('isAdjacent', () => { 

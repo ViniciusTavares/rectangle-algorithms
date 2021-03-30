@@ -20,16 +20,14 @@ class Rectangle {
     this.y2 = y2;
   }
 
-  isValid() { 
+  validate() {
     if (this.x1 >= this.x2) {
-      return false
+      throw Error('Invalid Rectangle points. x1 is higher or equal x2.')
     }
 
     if(this.y1 >= this.y2) { 
-      return false
+      throw Error('Invalid Rectangle points. y1 is higher or equal y2.')
     }
-
-    return true;
   }
 }
   

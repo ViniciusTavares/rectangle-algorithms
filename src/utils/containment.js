@@ -10,18 +10,18 @@
 */
 
 /**
- * detects if Rectangle 2 is wholly contained within Rectangle 1
- * @param {Rectangle} rec1 
- * @param {Rectangle} rec2
+ * detects if Rectangle B is wholly contained within Rectangle A
+ * @param {Rectangle} recA 
+ * @param {Rectangle} recB
  * @returns {boolean}
 */
-const recAWhollyContainsB = (rec1, rec2) => (
-    rec2.x2 < rec1.x2 
-    && rec2.x1 > rec1.x1 
-    && rec2.y1 > rec1.y1 
-    && rec2.y2 < rec1.y2
+const doesRecAWhollyContainB = (recA, recB) => (
+    recB.x2 < recA.x2 
+    && recB.x1 > recA.x1 
+    && recB.y1 > recA.y1 
+    && recB.y2 < recA.y2
 )
 
 module.exports = { 
-    recAWhollyContainsB
+    doesRecAWhollyContainB
 }

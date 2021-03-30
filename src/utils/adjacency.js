@@ -11,13 +11,13 @@
 
 /**
  * detects if two rectangles are adjacent
- * @param {Rectangle} rec1 
- * @param {Rectangle} rec2
+ * @param {Rectangle} recA 
+ * @param {Rectangle} recB
  * @returns {boolean}
 */
-const isAdjacent = (rec1, rec2) => {
-  const yGap = rec1.y1 > rec2.y2 || rec2.y1 > rec1.y2;
-  const xGap = rec1.x1 > rec2.x2 || rec2.x1 > rec1.x2;
+const isAdjacent = (recA, recB) => {
+  const yGap = recA.y1 > recB.y2 || recB.y1 > recA.y2;
+  const xGap = recA.x1 > recB.x2 || recB.x1 > recA.x2;
   
   if(yGap || xGap) { 
     return false;

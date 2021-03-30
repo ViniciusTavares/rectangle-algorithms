@@ -1,6 +1,4 @@
-const { expect } = require("@jest/globals");
-
-const { getIntersection } = require('../src/intersection');
+const { getIntersection } = require('../src/utils');
 const Rectangle = require("../src/Rectangle");
 
 describe('intersection', () => { 
@@ -19,8 +17,10 @@ describe('intersection', () => {
     const rec1 = new Rectangle(0,0,2,2);
     const rec2 = new Rectangle(3,3,4,4);
 
-    const result = getIntersection(rec1, rec2);
-
-    expect(result).toBe(null);
+    try { 
+      getIntersection(rec1, rec2);
+    } catch(error) {
+      expect(error).toBeDefined();
+    }
   });
 });
