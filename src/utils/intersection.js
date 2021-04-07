@@ -14,7 +14,7 @@ const Rectangle = require("../Rectangle");
 /**
  * Returns a product of an intersection between rectangle A and rectangle B. 
  * If the result is not a valid rectangle, it means there's no intersection and
- * it returns null
+ * it throws error
  * @param {Rectangle} rec1 
  * @param {Rectangle} recB
  * @returns {Rectangle}
